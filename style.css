@@ -66,9 +66,6 @@ html, body {
 }
 
 
-
-
-
 .logo-container {
     position: absolute;
     top: 40%;
@@ -162,7 +159,7 @@ html, body {
 
    .text-wrapper {
     display: flex;
-  }
+    }
   
   h1 {
   margin-right: 20px; 
@@ -173,6 +170,7 @@ html, body {
     font-size: 16px;
     margin-top: 10px;
   }
+
   .item {
     text-align: center;
     margin: 20px;
@@ -335,7 +333,7 @@ html, body {
   .look-container img {
     margin-left: -300px;
     margin-top: 40px;
-    width: 100%;
+    width: 120%;
       height: 110px;
   }
 
@@ -343,31 +341,66 @@ html, body {
  /* styling for event section */
   canvas {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     object-fit: cover;
   }
 
   .event-container img{
-    width:500px;
+    width:550px;
+    margin-top: -20px;
     }
   
-  .event-1{
-    position: absolute;
-    top: 100px;
-    left: 10%;
-  }
-  event-2{
-    position:absolute;
-    top: 300px;
-    left: 45%;
-  }
+    .event-1 {
+      font-size: 80px;
+      color: white;
+    }
 
-  event-3{
+    .event-2{
+      font-size: 80px;
+      color: white;
+    }
+ 
+   .overlay-container {
     position: absolute;
-    top: 100px;
-    transform: translateX(300%);
+    top: 195px;
+    left: 0;
+    width: 100%;
   }
+  
+   /* Adjust styles for individual columns */
+  .overlay-container .col-md-3,
+  .overlay-container .col-md-6 {
+    padding: 15px;
+   
+  }
+  
+ .portfolio{
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+ }
+   
+.html-marquee {
+  height:45px;
+  margin-top: -8px;
+  width:100%;
+  background-color:#DDD462;
+  font-family:Arial;
+  font-size:16px;
+  color: black;
+  border-width:1;
+  border-style:solid;
+  border-color:WHITE;
+  line-height: 40px;
+}
 
+
+
+.html-marquee span {
+  display: inline-block; /* Create a block element for each word */
+  padding-right: 20px; /* Add spacing between words */
+  text-indent: 35px; 
+}
 /* end of styling for event section */
 
 /* Media query for smaller screens */
@@ -569,9 +602,7 @@ html, body {
         height: 50px;
     }
     
-    
-
-    .diagonal-column.round-flower img {
+     .diagonal-column.round-flower img {
       width: 100px;
       margin-left: 30px;
       margin-bottom: 70px; /* Adjust the value to make the image smaller */
@@ -586,13 +617,34 @@ html, body {
       border-radius: 90%;
     }
  
-    .event-container img{
-      width:300px;
-      margin-top: -600px;
-      margin-left: 40px;
-    }
+   .event-container img{
+    width:200px;
+    padding: 0;
    
-}
+   }
+
+   .event-1 {
+    font-size: 40px;
+    color: white;
+  
+  }
+
+  .event-2{
+    font-size: 40px;
+    color: white;
+
+  }
+
+  .overlay-container {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+  }
+
+ 
+   
+   }
   
  /* Media query for iPad Mini and iPad Air */
 @media (min-width: 768px) and (max-width: 1024px) {
