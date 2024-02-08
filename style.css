@@ -647,7 +647,7 @@ html, body {
     }
  
    .event-container img{
-    width:200px;
+    width:300px;
     padding: 0;
    
    }
@@ -655,18 +655,19 @@ html, body {
    .event-1 {
     font-size: 35px;
     color: white;
+    line-height: 20px;
   
   }
 
   .event-2{
     font-size: 35px;
     color: white;
-
+line-height: 20px;
   }
 
   .overlay-container {
     position: absolute;
-    top: 28px;
+   top:60px;
     left: 0;
     width: 100%;
   }
