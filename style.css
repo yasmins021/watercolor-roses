@@ -423,6 +423,15 @@ html, body {
 
   }
 
+
+
+  .brand-mark{
+    text-align: center;
+    font-size: 19px;
+
+    
+  }
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
 
@@ -682,6 +691,12 @@ html, body {
     margin-right: 0px;
     margin-top: 70px;
   }
+    .brand-mark{
+      text-align: center;
+      font-size: 14px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 
    }
   
