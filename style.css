@@ -403,6 +403,26 @@ html, body {
 }
 /* end of styling for event section */
 
+.menu-list {
+  font-size: 45px;
+
+}
+  .menu{
+    font-size: 16px;
+    margin-right: 300px;
+    margin-top: 70px;
+  }
+  .footer-img {
+    width: 800px; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 300px;
+    line-height: 70px;
+
+  }
+
 /* Media query for smaller screens */
 @media (max-width: 768px) {
 
@@ -642,8 +662,27 @@ html, body {
     width: 100%;
   }
 
- 
+  .footer-img {
+    width: 200px; 
+  }
+
+  .menu-list{
+    font-size: 18px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 0px;
+    line-height: 70px;
+
+  }
    
+  .menu{
+    font-size: 14px;
+    margin-right: 0px;
+    margin-top: 70px;
+  }
+
    }
   
  /* Media query for iPad Mini and iPad Air */
