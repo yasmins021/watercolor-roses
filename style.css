@@ -653,20 +653,20 @@ html, body {
    }
 
    .event-1 {
-    font-size: 40px;
+    font-size: 35px;
     color: white;
   
   }
 
   .event-2{
-    font-size: 40px;
+    font-size: 35px;
     color: white;
 
   }
 
   .overlay-container {
     position: absolute;
-    top: 80px;
+    top: 28px;
     left: 0;
     width: 100%;
   }
