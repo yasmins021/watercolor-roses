@@ -1,0 +1,263 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .GeneratedMarquee {
+    font-family:Arial, sans-serif;
+    font-size:8em;
+    line-height:1.3em;
+    color:#000000;
+    padding:2em;
+    
+    }
+
+    .navbar-nav {
+    width: 100%;
+    text-align: center;
+    
+    > li {
+      float: none;
+      display: inline-block;
+      padding-right: 55px;
+      padding-left:50px;
+    
+    }
+  }
+  
+   .bg-green{
+    background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
+    height: 90px;
+  }
+  .navbar::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: transparent;}
+  
+
+    .container{
+      margin-top: -200px;
+    }
+
+    .plastic-flower {
+      width: 560px;
+      height: 490px;
+      margin-left: -280px;
+      }
+  
+      .fresh-flower{
+        width: 640px;
+        height: 690px;
+        padding-left: 0px;
+      }
+
+      .wedding-couple{
+        width:400px;
+        height:510px;
+        margin-left: 70px;
+      }
+
+      .flower-wedding{
+        width: 540px;
+        height:560px;
+        margin-top: 200px;
+        margin-left: 89px;
+      }
+      img.bride {
+        width: 400px;
+        margin-top: -100px;
+        margin-right: -800px;
+      }
+
+      .round-wedding{
+        margin-top: -30px;
+        border-radius: 80%;
+        width: 480px;
+      }
+
+      .cute-cake{
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 580px;
+        height: 400px;
+      }
+
+
+.menu-list {
+  font-size: 45px;
+
+}
+  .menu{
+    font-size: 16px;
+    margin-right: 300px;
+    margin-top: 70px;
+  }
+  .footer-img {
+    width: 800px; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 300px;
+    line-height: 70px;
+
+  }
+
+  .another-wedding{
+    width: 560px;
+    height: 490px;
+    margin-left: -280px;
+  }
+
+  .last-wedding{
+    width: 640px;
+    height: 690px;
+    padding-left: 0px;
+  }
+     
+
+
+  @media (max-width: 767px) {
+    .GeneratedMarquee {
+      font-family: Arial, sans-serif;
+      font-size: 4em; /* Adjust font size for smaller screens */
+      line-height: 1.3em;
+      color: #000000;
+      padding: 1em; /* Adjust padding for smaller screens */
+  }
+  
+  .navbar-nav {
+      width: 100%;
+      text-align: center;
+  }
+  
+  .navbar-nav > li {
+      display: block; /* Change display to block for smaller screens */
+      padding: 10px; /* Adjust padding for smaller screens */
+  }
+  
+  .bg-green {
+      background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
+      height: 60px; /* Reduce height for smaller screens */
+  }
+  
+  .navbar::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 10px; /* Reduce height for smaller screens */
+      background-image: transparent;
+  }
+  
+  .container {
+      margin-top: -20px; /* Adjust margin for smaller screens */
+  }
+  
+  .plastic-flower {
+      width: 170%; /* Make image responsive */
+      height: auto; /* Make image responsive */
+      margin: 0 auto; /* Center image */
+  }
+  
+  .fresh-flower {
+      width: 150%; 
+      margin-top: 100px;
+      margin-left: -40px; 
+      height: auto;
+      
+   
+  }
+  
+  .wedding-couple {
+      width: 180%; 
+      height: auto; 
+      margin-left: 0; 
+  }
+
+  .round-wedding{
+    margin-top: 20px;
+     border-radius: 80%;
+    width: 180%;
+    height: auto;
+  }
+
+
+
+  .cute-cake{
+    margin-top: -20px;
+    margin-left: -30px;
+    width: 140%;
+    height: auto;
+  }
+
+
+
+  .flower-wedding{
+    width:140%;
+    height:auto;
+    margin-top: 200px;
+    margin-left: -50px;
+  }
+
+  img.bride {
+    width: 40%;
+    margin-top: -140px;
+    margin-right: -90px;
+  }
+
+  .footer-img {
+    width: 200px; 
+  }
+
+  .menu-list{
+    font-size: 18px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 0px;
+    line-height: 50px;
+
+  }
+   
+  .menu{
+    font-size: 14px;
+    margin-right: 0px;
+    margin-top: 70px;
+  }
+  
+  .paragraph{
+    font-size: 14px;
+  }
+ 
+  .another-wedding{
+    width: 180%;
+    height: auto;
+    margin-left: -80px;
+    margin-top: 90px;
+  }
+
+  .last-wedding{
+    width: 200%;
+    height: auto;
+    margin-left: -60%;
+    margin-top: 30px;
+    }
+  
+
+  }
+  

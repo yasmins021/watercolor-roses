@@ -13,44 +13,42 @@ html, body {
     margin: 0;
     padding-top: 0px;
   }
-  .navbar.transparent-navbar {
-    background-color: transparent ;
+
  
-  }
+ 
   
-  /* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler .fa-bars {
-  color: #fff;
+
+
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  
+  > li {
+    float: none;
+    display: inline-block;
+    padding-right: 55px;
+    padding-left:50px;
+  
+  }
 }
 
 
-.flex-container{
-  display: flex;
-  margin-top: 30px;
- padding-left: 50px;
+.bg-green{
+  background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
+  height: 60px;
 }
+.navbar::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background-image: transparent;}
 
-.flex-container .item{
-  flex: 1 0 0;
-}
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler .fa-bars {
-  color: #4f4f4f;
-}
 
-/* Color of the navbar AFTER scroll */
-.navbar-scrolled {
-  background-color: #fff;
-}
-
-/* An optional height of the navbar AFTER scroll */
-.navbar.navbar-scroll.navbar-scrolled {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
 
 .container.large-content {
   width: 100%;
@@ -662,7 +660,7 @@ html, body {
   .event-2{
     font-size: 35px;
     color: white;
-line-height: 20px;
+  line-height: 20px;
   }
 
   .overlay-container {
@@ -694,9 +692,9 @@ line-height: 20px;
   }
     .brand-mark{
       text-align: center;
-      font-size: 14px;
-      padding-left: 10px;
-      padding-right: 10px;
+      font-size: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
     }
 
    }
