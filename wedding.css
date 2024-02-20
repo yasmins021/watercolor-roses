@@ -1,15 +1,7 @@
-
-
-
-
-
-
-
-
-
-
-
-
+.navbar-brand img{
+  width: 100px;
+  margin-left: 40px;
+}
 
   .GeneratedMarquee {
     font-family:Arial, sans-serif;
@@ -44,7 +36,8 @@
     left: 0;
     right: 0;
     height: 20px;
-    background-image: transparent;}
+    background-image: transparent;
+  }
   
 
     .container{
