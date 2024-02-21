@@ -89,6 +89,7 @@ img{
 .footer-img {
   width: 200px; 
 }
+
 .menu-list{
   font-size: 18px;
 }
@@ -96,7 +97,7 @@ img{
 ul {
   list-style-type: none;
   margin-right: 0px;
-  line-height: 45px;
+  line-height: 70px;
 
 }
  

@@ -22,6 +22,16 @@ html, body {
   }
 
 
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .navbar-text i {
+    margin-right: 10px;
+    margin-left: 30px;
+  }
 
 
   .navbar-nav {
@@ -434,10 +444,12 @@ html, body {
   .brand-mark{
     text-align: center;
     font-size: 19px;
-
-    
   }
 
+
+
+  
+ 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
 
@@ -463,6 +475,10 @@ html, body {
     font-size: 25px;
     margin-top: 84px;
     line-height: 24px;
+    }
+
+    .navbar-toggler{
+      margin-right: 20px;
     }
     .flora{
       font-size: 40px;
