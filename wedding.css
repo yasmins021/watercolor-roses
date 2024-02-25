@@ -1,7 +1,4 @@
-.navbar-brand img{
-  width: 100px;
-  margin-left: 40px;
-}
+
 
   .GeneratedMarquee {
     font-family:Arial, sans-serif;
@@ -11,34 +8,6 @@
     padding:2em;
     
     }
-
-    .navbar-nav {
-    width: 100%;
-    text-align: center;
-    
-    > li {
-      float: none;
-      display: inline-block;
-      padding-right: 55px;
-      padding-left:50px;
-    
-    }
-  }
-  
-   .bg-green{
-    background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
-    height: 90px;
-  }
-  .navbar::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background-image: transparent;
-  }
-  
 
     .container{
       margin-top: -200px;
@@ -120,6 +89,51 @@
     padding-left: 0px;
   }
      
+  .navbar-brand img{
+    width: 100px;
+    margin-left: 40px;
+  }
+
+
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .navbar-text i {
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    
+    > li {
+      float: none;
+      display: inline-block;
+      padding-right: 55px;
+      padding-left:50px;
+    
+    }
+  }
+  
+  .bg-green{
+    background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
+    height: 90px;
+  }
+  .navbar::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background-image: transparent;
+  }
+
+
 
 
   @media (max-width: 767px) {
@@ -131,32 +145,7 @@
       padding: 1em; /* Adjust padding for smaller screens */
   }
   
-  .navbar-nav {
-      width: 100%;
-      text-align: center;
-  }
-  
-  .navbar-nav > li {
-      display: block; /* Change display to block for smaller screens */
-      padding: 10px; /* Adjust padding for smaller screens */
-  }
-  
-  .bg-green {
-      background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
-      height: 60px; /* Reduce height for smaller screens */
-  }
-  
-  .navbar::before {
-      content: "";
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 10px; /* Reduce height for smaller screens */
-      background-image: transparent;
-  }
-  
-  .container {
+.container {
       margin-top: -20px; /* Adjust margin for smaller screens */
   }
   
@@ -252,5 +241,32 @@
     }
   
 
+    .navbar-nav {
+      width: 100%;
+      text-align: center;
+       margin-top: 50px;
+      
+      > li {
+        float: none;
+        display: inline-block;
+        padding-right: 55px;
+        padding-left:50px;
+        font-size: 30px;
+        line-height: 60px;
+       }
+    }
+  
+    .navbar-text{
+      margin-top: 280px;
+      margin-left:80px;
+      }
+    .navbar-toggler{
+      margin-right: 20px;
+    }
+
+.offcanvas-title img{
+  width:100px;
+
   }
+}
   

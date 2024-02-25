@@ -1,6 +1,40 @@
 
+html, body {
+  margin: 0;
+  padding: 0;
+  padding-left:0 ;
+  padding-right: 0;
+}
 
-.navbar-nav {
+
+.background img {
+    height: 725px;
+    width: 100%;
+    margin: 0;
+    padding-top: 0px;
+  }
+
+ 
+ 
+  .navbar-brand img{
+    width: 100px;
+    margin-left: 40px;
+  }
+
+
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .navbar-text i {
+    margin-right: 10px;
+    margin-left: 30px;
+  }
+
+
+  .navbar-nav {
     width: 100%;
     text-align: center;
 
@@ -10,7 +44,7 @@
       display: inline-block;
       padding-right: 55px;
       padding-left:50px;
-    
+  
     }
   }
   
@@ -32,6 +66,700 @@
     background-image: linear-gradient(to bottom, rgba(158, 231, 152, 1), rgba(159, 231, 152, 0.046));
     height: 90px;
   }
-  .navbar-brand img{
-    width:100px;
+
+
+.container.large-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-wrapper {
+  font-size: 3rem;
+}
+
+
+  
+  .image-container{
+    margin-top: 50px;
   }
+  
+  .description{
+    font-size: 16px;
+    padding-left:20px;
+  }
+
+  .description-p{
+  color:rgb(114, 111, 111);
+  margin-top: 9px;
+  }
+  .description-main{
+    font-size:18px;
+    font-weight: 400;
+    margin-top: -10px;
+  }
+
+  .desciption-pricing{
+    font-size: 15px;
+  }
+
+  /* styling for second container */
+  .second-container {
+    background-image: url('/Images/flower-background.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    margin-top: 50px;
+    height: 400px; 
+  }
+   .second-container img {
+    width: 100%;
+   object-fit: cover; 
+    }
+
+  .text-overlay {
+    padding-left: 110px;
+    padding-right:110px;
+  font-size: 35px;
+  margin-top: 150px;
+  line-height: 23px;
+  }
+  /* end of second container styling */
+
+ 
+   /* styling for flower bling row */
+  .bling{
+    font-size:70px;
+    padding-left: 30px;
+    margin-top: 40px;
+  }
+  .anthurium-p{
+    margin-top: 40px;
+    font-size: 19px;
+    padding-right: 70px;
+  }
+  .anthurium-p2{
+    margin-top: 40px;
+    padding-right: 30px; 
+  }
+  .jewel-flowers{
+    margin-top: 46px;
+    width: 400px;
+    height: auto;
+  }
+ /* end of styling for flower bling row */
+
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    }
+
+   .text-wrapper {
+    display: flex;
+    }
+  
+  h1 {
+  margin-right: 20px; 
+  font-size: 60px;
+  }
+  
+  h3{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .item {
+    text-align: center;
+    margin: 20px;
+  }
+
+
+  .top-flower {
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 100%;
+  }
+
+  /* styling for flower directory */
+
+  .description-1 {
+    font-size: 13px;
+    opacity: 0.7;
+  }
+
+  .description-2 {
+    font-size: 14px;
+  }
+
+  .directory{
+    width: 600px;
+    margin-top: -24px;
+  }
+
+  .directory-paragraph{
+    padding-right: 100px;
+  }
+ 
+  .directory-paragraph{
+  padding-right: 100px;
+  }
+
+  .img-fluid-blue-flowers{
+    margin-top: 50px;
+    padding-left: 33px;
+  }
+
+  .flora{
+    font-size: 85px;
+    margin-top: 126px;
+  }
+/* end of styling for flower directory */
+  
+ 
+  /* styling for pregnant puno section */
+ .preggo-container img {
+    width: 100%;
+    height: 800px; 
+    object-fit: cover; 
+    margin-top:40px;
+  }
+  .preggo-container .new-image {
+    width: 70%;
+    height: 300px; 
+    margin-top: 98px;
+    margin-left: 30px;
+  }
+  .puno-pregnant-text {
+    color: white;
+    font-size: 22px;
+    margin-left: 78px;
+    margin-top: -30px;
+  }
+ .baby{
+  color:white;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 40px;
+  }
+  .baby2{
+    color:white;
+    margin-left: 40px;
+    line-height: 3px;
+    font-size: 40px;
+  }
+  .pill-button {
+    margin-top: 60px;
+    margin-left: 50px;
+    height: 45px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+    color: rgba(18, 102, 42, 0.915);
+    border: none;
+  }
+  .pill-button:hover {
+    opacity: 0.7;
+  }
+   /* end of styling for pregnant puno section */
+
+    
+    
+    /* styling for about section */
+   .diagonal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .diagonal-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .diagonal-column:nth-child(1) {
+    align-self: flex-start;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .diagonal-column:nth-child(3) {
+    align-self: flex-end;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  .diagonal-column:nth-child(1) img {
+    transform: rotate(73deg);
+    width: 250px;
+    margin-left: 160px;
+    border-radius: 60%;
+    }
+
+  .diagonal-column:nth-child(3) img {
+    transform: rotate(-20deg);
+    width: 380px;
+    height:244px;
+    margin-top: 100px;
+    margin-right: 90px;
+    border-radius: 90%;
+  }
+
+  .about-pedro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh; 
+  }
+
+  .about-text {
+    margin-top: 20px;
+  }
+
+  .h1-style {
+    font-size: 95px; 
+    margin-top: 40px;
+    margin-left: 90px;
+  }
+/* end of styling for about section */
+
+ 
+
+  .look-container img {
+    margin-left: -300px;
+    margin-top: 40px;
+    width: 120%;
+      height: 110px;
+  }
+
+
+ /* styling for event section */
+  canvas {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+  }
+
+  .event-container img{
+    width:550px;
+    margin-top: -20px;
+    }
+  
+    .event-1 {
+      font-size: 80px;
+      color: white;
+    }
+
+    .event-2{
+      font-size: 80px;
+      color: white;
+    }
+ 
+   .overlay-container {
+    position: absolute;
+    top: 195px;
+    left: 0;
+    width: 100%;
+  }
+  
+   /* Adjust styles for individual columns */
+  .overlay-container .col-md-3,
+  .overlay-container .col-md-6 {
+    padding: 15px;
+   
+  }
+  
+ .portfolio{
+  font-size: 25px;
+  color: white;
+  margin-top: 10px;
+ }
+   
+.html-marquee {
+  height:45px;
+  margin-top: -8px;
+  width:100%;
+  background-color:#DDD462;
+  font-family:Arial;
+  font-size:16px;
+  color: black;
+  border-width:1;
+  border-style:solid;
+  border-color:WHITE;
+  line-height: 40px;
+}
+
+
+
+.html-marquee span {
+  display: inline-block; /* Create a block element for each word */
+  padding-right: 20px; /* Add spacing between words */
+  text-indent: 35px; 
+}
+/* end of styling for event section */
+
+.menu-list {
+  font-size: 45px;
+
+}
+  .menu{
+    font-size: 16px;
+    margin-right: 300px;
+    margin-top: 70px;
+  }
+  .footer-img {
+    width: 800px; 
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 300px;
+    line-height: 70px;
+
+  }
+
+
+
+  .brand-mark{
+    text-align: center;
+    font-size: 19px;
+  }
+
+
+  .background img:nth-child(2) {
+    position: absolute;
+    width: 800px;
+    height: 600px; 
+    top: 200px; 
+    left: 500px;
+  }
+
+  .offcanvas-title{
+    width: 150px;
+  }
+
+
+ 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+
+  .background img:nth-child(2) {
+    position: absolute;
+    width: 300px;
+    height: 200px; 
+    top: 200px; 
+    left: 50px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+     margin-top: 50px;
+    
+    > li {
+      float: none;
+      display: inline-block;
+      padding-right: 55px;
+      padding-left:50px;
+      font-size: 30px;
+      line-height: 60px;
+     }
+  }
+
+  .navbar-text{
+    margin-top: 280px;
+    margin-left:80px;
+    }
+  .navbar-toggler{
+    margin-right: 20px;
+  }
+  
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This prevents horizontal scrolling */
+  }
+
+    .background img {
+      height: 430px; /* Increase the height of the background image for smaller screens */
+    }
+   
+    .text-overlay {
+      padding-left: 10px;
+      padding-right:10px;
+    font-size: 25px;
+    margin-top: 84px;
+    line-height: 24px;
+    }
+
+    
+    .flora{
+      font-size: 40px;
+      margin-top: 30px;
+    
+    }
+    .directory{
+      width: 250px;
+    }
+    .anthurium-p{
+      padding-left: 20px;
+     }
+    .anthurium-p2{
+      margin-top: 20px;
+     }
+
+     .col-lg-6{
+      margin-top:-80px;
+      text-align: center;
+     }
+
+    .directory-paragraph{
+      padding-right: 0;
+      margin-top: 20px;
+     }
+     
+   /* Puno Pregnat */
+    .preggo-container .new-image {
+      height:20vh;
+      width: 60%;
+    }
+
+    .puno-pregnant-text {
+      color: white;
+      font-size: 24px;
+      margin-left: 48px;
+      margin-top: -30px;
+    }
+
+    .baby{
+      color:white;
+      margin-top: 10px;
+      margin-left: 30px;
+      font-size: 30px;
+      }
+      .baby2{
+        color:white;
+        margin-left: 30px;
+       line-height: 40px;
+        font-size: 30px;
+        margin-top:-20px;
+      }
+
+
+  /* end of puno pregnat */
+    .jewel-flowers{
+      width: 90px;
+      height: auto; 
+     }
+    
+     .bling{
+      font-size:43px;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+   
+    .top-flower {
+      width: auto;
+        height: auto;
+        max-width: 70%;
+        max-height: 100%;
+      }
+      
+     
+       
+    .container {
+      flex-direction: column;
+     }
+  
+    img {
+      width: 70%; 
+      margin-bottom: 10px; 
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .bling {
+      flex-basis: 100%;
+    }
+    
+    .col-sm {
+      flex-grow: 1;
+      flex-basis: 50%;
+    }
+    
+    .col-sm:nth-child(2),
+    .col-sm:nth-child(3) {
+      flex-basis: 25%;
+    } 
+
+    .col-lg-6 {
+      flex: 0 0 100%; 
+    }
+  
+    .order-lg-1 {
+      order: 2; 
+    }
+  
+    .order-lg-2 {
+      order: 1; 
+    }
+
+
+  .carousel-inner{
+    margin-top: 30px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgb(206, 146, 191); 
+   border: none; 
+  }
+
+  .carousel-control-prev {
+    margin-left: 12px; 
+  }
+
+  .carousel-control-next {
+    margin-right: 12px; 
+  }
+
+
+    .description{
+      font-size: 16px;
+      text-align: center;
+      padding-left: 0;
+    }
+  
+    .description-p{
+    color:rgb(114, 111, 111);
+    margin-top: 9px;
+    }
+    .description-main{
+      font-size:18px;
+      font-weight: 400;
+      margin-top: -10px;
+    }
+  
+    .desciption-pricing{
+      font-size: 15px;
+    }
+    .img-fluid-blue-flowers{
+      margin-top: 10px;
+      padding-left: 0px;
+    }
+
+    .h1-style {
+      font-size: 50px; 
+      margin-top: 40px;
+      margin-left: 0px;
+    }
+
+
+    .look-container img {
+      margin-left: 50px;
+      margin-top: 20px;
+      width: 80%;
+        height: 50px;
+    }
+    
+     .diagonal-column.round-flower img {
+      width: 100px;
+      margin-left: 30px;
+      margin-bottom: 70px; /* Adjust the value to make the image smaller */
+    }
+  
+    
+    .diagonal-column:nth-child(3) img {
+      transform: rotate(60deg);
+      width: 100px;
+      height:150px;
+      margin-top: 100px;
+      border-radius: 90%;
+    }
+ 
+   .event-container img{
+    width:300px;
+    padding: 0;
+   
+   }
+
+   .event-1 {
+    font-size: 35px;
+    color: white;
+    line-height: 20px;
+  
+  }
+
+  .event-2{
+    font-size: 35px;
+    color: white;
+  line-height: 20px;
+  }
+
+  .overlay-container {
+    position: absolute;
+   top:60px;
+    left: 0;
+    width: 100%;
+  }
+
+  .footer-img {
+    width: 200px; 
+  }
+
+  .menu-list{
+    font-size: 18px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin-right: 0px;
+    line-height: 70px;
+
+  }
+   
+  .menu{
+    font-size: 14px;
+    margin-right: 0px;
+    margin-top: 70px;
+  }
+    .brand-mark{
+      text-align: center;
+      font-size: 10px;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+   }
+  
+ /* Media query for iPad Mini and iPad Air */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Specify your styles for the iPad Mini and iPad Air here */
+  .background img {
+    height: 630px; /* Increase the height of the background image for smaller screens */
+  }
+  .logo-container {
+    top: 39%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; /* Set the width to 100% to make the image responsive */
+    height: auto; 
+  }
+  .jewel-flowers {
+    width: 180px;
+    height: auto; 
+  }
+}

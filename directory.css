@@ -77,43 +77,47 @@
   }
   
 
-
-
-
-
-
-
-
-
-
-
-
-.menu-list {
-    font-size: 45px;
-  
-  }
-    .menu{
-      font-size: 16px;
-      margin-right: 300px;
-      margin-top: 70px;
+  .menu-list {
+      font-size: 45px;
+    
     }
-    .footer-img {
-      width: 800px; 
-    }
-  
-    ul {
-      list-style-type: none;
-      margin-right: 300px;
-      line-height: 70px;
-  
-    }
+      .menu{
+        font-size: 16px;
+        margin-right: 300px;
+        margin-top: 70px;
+      }
+      .footer-img {
+        width: 800px; 
+      }
+    
+      ul {
+        list-style-type: none;
+        margin-right: 300px;
+        line-height: 70px;
+    
+      }
   
 
 
     
   
     
-   
+      .navbar-brand img{
+        width: 100px;
+        margin-left: 40px;
+      }
+    
+    
+      .navbar-text {
+        display: flex;
+        align-items: center;
+        
+      }
+    
+      .navbar-text i {
+        margin-right: 10px;
+        margin-left: 30px;
+      }
 
 @media (max-width: 767px) {
     .description{
@@ -142,5 +146,34 @@
     margin-right: 0px;
     margin-top: 70px;
   }
+
+
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+     margin-top: 50px;
+    
+    > li {
+      float: none;
+      display: inline-block;
+      padding-right: 55px;
+      padding-left:50px;
+      font-size: 30px;
+      line-height: 60px;
+     }
+  }
+
+  .navbar-text{
+    margin-top: 280px;
+    margin-left:80px;
+    }
+  .navbar-toggler{
+    margin-right: 20px;
+  }
+
+.offcanvas-title img{
+width:100px;
+
+}
   }
   

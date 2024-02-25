@@ -14,7 +14,14 @@ html, body {
     padding-top: 0px;
   }
 
- 
+  .background img:nth-child(2) {
+    position: absolute;
+    width: 800px;
+    height: 600px; 
+    top: 200px; 
+    left: 500px;
+  }
+
  
   .navbar-brand img{
     width: 100px;
@@ -82,12 +89,7 @@ html, body {
 }
 
 
-.logo-container {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+
   
   .image-container{
     margin-top: 50px;
@@ -160,12 +162,7 @@ html, body {
   }
  /* end of styling for flower bling row */
 
-  .logo-1 {
-    max-width: 500%; 
-    max-height: 500px;
-    width: auto; 
-    height: auto; 
-  }
+  
   
   .container {
     display: flex;
@@ -459,16 +456,22 @@ html, body {
     overflow-x: hidden; /* This prevents horizontal scrolling */
   }
 
-    .background img {
-      height: 430px; /* Increase the height of the background image for smaller screens */
-    }
-    .logo-container {
-        top: 29%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90%; 
-      height: auto; 
-    }
+  .background img:nth-child(2) {
+    position: absolute;
+    width: 300px;
+    height: 200px; 
+    top: 200px; 
+    left: 50px;
+  }
+
+
+
+
+
+
+
+
+   
     .text-overlay {
       padding-left: 10px;
       padding-right:10px;
